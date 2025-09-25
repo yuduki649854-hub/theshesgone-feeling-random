@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <title>ランダムジャンプ</title>
+    <script type="text/javascript">
+    <!--
+      var mylink1 = new Array( "https://open.spotify.com/track/7FIQhEnB15wXomarKjzvTK?si=Bzgy7E-TSkKrjje5fXKmoA",  "https://open.spotify.com/track/27FUEKrI5GK1JlBdvYVPRO?si=tgTUjkpuQDeREWqML-J09A&context=spotify%3Aalbum%3A6AEKlmz50QcOuLeIpPxuUE","https://open.spotify.com/track/0bWnId0mY25pHeFISHR9V1?si=sVra-PP3SBq0CKM0PvkqKQ&context=spotify%3Aalbum%3A4FGWU6jdrl9SDFvBFjh7vr" );
+      function random_jump1() {
+        var i = Math.floor(Math.random() * mylink1.length);
+        location.href = mylink1[i];
+      }
+var mylink2 = new Array( "https://open.spotify.com/track/3YfuicU0ycjTz5tVXlbrWx?si=tic3Lb85Qhe8fFX6k_E7Cw",  "https://open.spotify.com/track/0iOqmQK4AdtDGciGAnDWWe?si=dN6fCLe0RjSIdc92sjGL5A","https://open.spotify.com/track/1A42o35sy8P3UQgm6ArWGD?si=XWksGvgHREaVItCJO3EvaA" );
+      function random_jump2() {
+        var i = Math.floor(Math.random() * mylink2.length);
+        location.href = mylink2[i];
+      }      
+    // -->
+    </script>
+  </head>
+  <body>
+    <h1>🎵当てはまるものを選んでください🎵</h1>
+    <a class="link_button" href="javascript:random_jump1();">背中を押してほしい</a>
+    <a class="link_button" href="javascript:random_jump2();">片想いをしている</a>
+  </body>
+</html
+   <link rel="stylesheet" href="style.css">   
